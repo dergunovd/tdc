@@ -6,8 +6,6 @@ function elementClickHandler() {
   this.classList.toggle('scheme__element_active');
 }
 
-scheme.addEventListener('load', () => {
-  Array.from(scheme.querySelectorAll('.scheme__office, .scheme__exit')).forEach(elem => {
-    elem.onclick = elementClickHandler;
-  });
+Array.from(scheme.querySelectorAll('.scheme__office, .scheme__exit')).forEach(elem => {
+  elem.onclick = elementClickHandler;
 });
