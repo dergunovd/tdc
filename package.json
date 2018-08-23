@@ -1,0 +1,39 @@
+{
+  "name": "tdc",
+  "version": "1.0.0",
+  "description": "Interactive scheme of offices",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dergunovd/tdc.git"
+  },
+  "keywords": [
+    "svg",
+    "cssgrid",
+    "css3",
+    "vanilla-js"
+  ],
+  "author": "Dmitry Dergunov <dmitry@dergunov.net>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dergunovd/tdc/issues"
+  },
+  "homepage": "https://github.com/dergunovd/tdc#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-minifier": "^3.5.20",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "svg-loader": "0.0.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

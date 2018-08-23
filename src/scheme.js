@@ -1,5 +1,10 @@
-const scheme = document.getElementById('scheme');
+import './scheme.css';
+import html from './scheme.html';
+require('./scheme.json');
 
+document.getElementById('scheme').innerHTML = html;
+
+const scheme = document.getElementById('scheme');
 function elementClickHandler() {
   const activeElement = scheme.getElementsByClassName('scheme__element_active')[0];
   activeElement && activeElement.classList.toggle('scheme__element_active');
