@@ -22,7 +22,6 @@ $gray: #C9CDCC
   font-size: 12px
   color: $secondary-color
   font-weight: 800
-
   &__top
     grid-area: top
     text-align: center
@@ -30,8 +29,8 @@ $gray: #C9CDCC
   &__left
     display: flex
     grid-area: left
-    border-left: 1px solid $secondary-color
-    border-right: 1px solid $secondary-color
+    border-left: 2px solid $secondary-color
+    border-right: 2px solid $secondary-color
     min-height: 200px
     align-items: center
     justify-content: center
@@ -55,8 +54,8 @@ $gray: #C9CDCC
     align-items: center
     justify-content: center
     grid-area: bottom
-    border-top: 1px solid $secondary-color
-    border-bottom: 1px solid $secondary-color
+    border-top: 2px solid $secondary-color
+    border-bottom: 2px solid $secondary-color
 
   &__place
     display: flex
@@ -108,7 +107,7 @@ $gray: #C9CDCC
       line-height: 2vw
       border: 2px solid $primary-color
       border-radius: 4px
-      padding: 5px 1vw 3px
+      padding: .5vw 1vw .3vw
 
   &__office
     fill: $offices
@@ -124,12 +123,13 @@ $gray: #C9CDCC
       stroke: $offices-hover
     &_free
       fill: $white
-      &:hover
-        fill: $free-offices
+      stroke: $free-offices
+      &:hover,
       &.scheme__element_active,
       &.scheme__office:active,
       &.scheme__office:focus
         fill: $free-offices
+        stroke: $free-offices
 
   &__exit
     path

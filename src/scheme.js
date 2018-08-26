@@ -18,9 +18,18 @@ class Scheme {
     this.x = 0;
     this.y = 0;
     this.printSceme();
+    this.setFreeOffices();
     
     Array.from(this.scheme.querySelectorAll('.scheme__office, .scheme__exit')).forEach(elem => {
       elem.onclick = (event) => this.elementClickHandler(event, elem);
+    });
+  }
+  
+  setFreeOffices() {
+    Object.entries(this.data).forEach(([key, value]) => {
+      if (value.free) {
+        document.getElementById(key).classList.add('scheme__office_free');
+      }
     });
   }
   
