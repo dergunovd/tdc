@@ -1,0 +1,142 @@
+$font-stack: 'IBM Plex Sans', sans-serif
+$primary-color: #243AB6
+$secondary-color: #6E7FE1
+$offices: #B5BCE3
+$offices-hover: #8A98E6
+$free-offices: #24e87e
+$black: #121413
+$white: #fff
+$gray: #C9CDCC
+
+.scheme
+  display: grid
+  width: 100%
+  font-family: $font-stack
+  grid-template-columns: 26px auto 60px
+  grid-template-rows: 60px auto 26px
+  grid-column-gap: 22px
+  grid-row-gap: 22px
+  grid-template-areas: ". top ." "left center right" ". bottom ."
+  align-items: stretch
+  text-transform: uppercase
+  font-size: 12px
+  color: $secondary-color
+  font-weight: 800
+
+  &__top
+    grid-area: top
+    text-align: center
+
+  &__left
+    display: flex
+    grid-area: left
+    border-left: 1px solid $secondary-color
+    border-right: 1px solid $secondary-color
+    min-height: 200px
+    align-items: center
+    justify-content: center
+    &__text
+      transform: rotate(-90deg)
+
+  &__center
+    grid-area: center
+    display: flex
+    align-items: center
+    position: relative
+
+  &__right
+    display: flex
+    grid-area: right
+    align-items: center
+    justify-content: center
+
+  &__bottom
+    display: flex
+    align-items: center
+    justify-content: center
+    grid-area: bottom
+    border-top: 1px solid $secondary-color
+    border-bottom: 1px solid $secondary-color
+
+  &__place
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__icon
+      max-height: 30px
+    &__text
+      margin: 6px 0 0
+
+  &__scheme
+    width: 100%
+    display: flex
+    justify-content: center
+    padding-top: 25.81%
+    position: relative
+    &__svg
+      width: 100%
+      position: absolute
+      top: 0
+      border-radius: 2.85% / 11%
+      box-shadow: 0 16px 30px rgba(0, 0, 0, .15)
+
+  &__info
+    position: absolute
+    top: 20%
+    left: 5%
+    right: 5%
+    bottom: 20%
+    text-transform: none
+    padding: 1vw
+
+    &__title
+      font-size: 2.2vw
+      line-height: 3vw
+      color: $primary-color
+      margin: 0
+
+    &__description
+      margin: 0 0 8px
+      font-weight: 300
+      font-size: 1.5vw
+      line-height: 2vw
+      color: $black
+
+    &__price
+      color: $primary-color
+      font-size: 1.5vw
+      line-height: 2vw
+      border: 2px solid $primary-color
+      border-radius: 4px
+      padding: 5px 1vw 3px
+
+  &__office
+    fill: $offices
+    cursor: pointer
+    transition: fill ease-in-out .15s, stroke ease-in-out .15s
+    stroke: $offices
+    stroke-width: 3px
+    &:hover,
+    &.scheme__element_active,
+    &.scheme__office:active,
+    &.scheme__office:focus
+      fill: $offices_hover
+      stroke: $offices-hover
+    &_free
+      fill: $white
+      &:hover
+        fill: $free-offices
+      &.scheme__element_active,
+      &.scheme__office:active,
+      &.scheme__office:focus
+        fill: $free-offices
+
+  &__exit
+    path
+      fill: $black
+    &:hover,
+    &.scheme__element_active,
+    &.scheme__exit:active,
+    &.scheme__exit:focus
+      path
+        fill: $primary-color

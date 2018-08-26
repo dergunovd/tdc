@@ -1,44 +1,68 @@
-[
-  {
+{
+  "exit_0": {
+    "name": "Подъезд 2"
+  },
+  "exit_1": {
+    "name": "Подъезд 3"
+  },
+  "exit_2": {
+    "name": "Центральный вход"
+  },
+  "exit_3": {
+    "name": "Подъезд 5"
+  },
+  "exit_4": {
+    "name": "Подъезд 6"
+  },
+  "exit_5": {
+    "name": "Подъезд 1"
+  },
+  "office_0": {
     "name": "Сектор 13",
-    "square": 25,
+    "square": 40,
     "description": "Стул, 6 стульев, этажерка",
-    "price": 6000
+    "price": 8000
   },
-  {
+  "office_1": {
     "name": "Сектор 14",
-    "square": 25,
+    "square": 60,
     "description": "Стул, 6 стульев, этажерка",
-    "price": 6000
+    "price": 8000
   },
-  {
+  "office_2": {
     "name": "Сектор 15",
-    "square": 25,
+    "square": 40,
     "description": "Стул, 6 стульев, этажерка",
-    "price": 6000
+    "price": 8000
   },
-  {
+  "office_3": {
     "name": "Сектор 16",
-    "square": 25,
+    "square": 50,
     "description": "Стул, 6 стульев, этажерка",
-    "price": 6000
+    "price": 7000
   },
-  {
+  "office_4": {
     "name": "Сектор 17",
-    "square": 25,
+    "square": 47,
     "description": "Стул, 6 стульев, этажерка",
-    "price": 6000
+    "price": 7000
   },
-  {
+  "office_5": {
     "name": "Сектор 18",
     "square": 25,
     "description": "Стул, 6 стульев, этажерка",
+    "price": 7000
+  },
+  "office_6": {
+    "name": "Сектор 19",
+    "square": 10,
+    "description": "Стул, 6 стульев, этажерка",
     "price": 6000
   },
-  {
-    "name": "Сектор 19",
+  "office_7": {
+    "name": "Сектор 20",
     "square": 25,
     "description": "Стул, 6 стульев, этажерка",
     "price": 6000
   }
-]
+}

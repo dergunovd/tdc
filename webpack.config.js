@@ -27,14 +27,6 @@ module.exports = {
         ]
       },
       {
-        test: /\.svg/,
-        loader: 'svg-loader'
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      },
-      {
         test: /\.html$/,
         use: [
           {
