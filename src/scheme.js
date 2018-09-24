@@ -47,7 +47,7 @@ class Scheme {
     document.getElementById('schemeInfo').innerHTML =
       `<div class="scheme__info__cont">
           ${data.name && `<h2 class="scheme__info__title">${data.name}</h2>`}
-          ${(data.square || data.description) ? `<p class="scheme__info__description">${data.square && `Площадь: ${data.square} м²<br />`}${data.description}</p>` : ''}
+          ${(data.square || data.description) ? `<div class="scheme__info__description">${data.square && `Площадь: ${data.square} м²<br />`}${data.description}</div>` : ''}
           ${data.price ? `<span class="scheme__info__price">${data.price} р/м² в месяц</span>` : ''}
         </div>`;
   }
