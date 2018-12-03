@@ -15,6 +15,7 @@ $gray: #C9CDCC
     justify-content: center
     align-items: center
     position: relative
+
 .scheme
   display: grid
   width: 100%
@@ -52,6 +53,7 @@ $gray: #C9CDCC
     min-height: 200px
     align-items: center
     justify-content: center
+
     &__text
       transform: rotate(90deg)
 
@@ -82,8 +84,10 @@ $gray: #C9CDCC
     align-items: center
     @media all and (orientation: portrait)
       transform: rotate(90deg)
+
     &__icon
       max-height: 30px
+
     &__text
       margin: 6px 0 0
 
@@ -93,6 +97,7 @@ $gray: #C9CDCC
     justify-content: center
     padding-top: 25.81%
     position: relative
+
     &__svg
       width: 100%
       position: absolute
@@ -109,23 +114,35 @@ $gray: #C9CDCC
     text-transform: none
     padding: 1em
 
+    &__cont
+      display: flex
+
+      > div:last-child
+        padding: 3em 1em 0
+
     &__title
       font-size: 2em
       color: $primary-color
       margin: 0
 
+      img
+        max-width: 2em
+        max-height: 1em
+
     &__description
-      margin: 0 0 8px
+      margin: 0 0 2px
       font-weight: 300
       font-size: 1.5em
       color: $black
 
-    &__price
-      color: $primary-color
-      font-size: 1.5em
-      border: 2px solid $primary-color
-      border-radius: 4px
-      padding: .5em 1em .3em
+    &__social
+      margin-top: 5px
+
+      a
+        display: inline-block
+        fill: $secondary-color
+        width: 1em
+        margin-right: 7px
 
   &__office
     fill: $offices
@@ -133,15 +150,18 @@ $gray: #C9CDCC
     transition: fill ease-in-out .15s, stroke ease-in-out .15s
     stroke: $offices
     stroke-width: 3px
+
     &:hover,
     &.scheme__element_active,
     &.scheme__office:active,
     &.scheme__office:focus
       fill: $offices_hover
       stroke: $offices-hover
+
     &_free
       fill: $white
       stroke: $free-offices
+
       &:hover,
       &.scheme__element_active,
       &.scheme__office:active,
@@ -152,6 +172,7 @@ $gray: #C9CDCC
   &__exit
     path
       fill: $black
+
     &:hover,
     &.scheme__element_active,
     &.scheme__exit:active,

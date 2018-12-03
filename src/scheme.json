@@ -18,59 +18,274 @@
     "name": "Подъезд 1"
   },
   "office_0": {
-    "name": "Сектор 13",
-    "square": 40,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 8000,
-    "free": true
+    "logo": "govorun.png",
+    "name": "Говорун",
+    "description": "Центр Развития речи",
+    "insta": "centr_govorun",
+    "web": "centr-govorun.ru",
+    "vk": "centr_govorun",
+    "time": "Ежедневно с 10 до 20",
+    "phone": "+7 (8452) 71–50–78"
   },
   "office_1": {
-    "name": "Сектор 14",
-    "square": 60,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 8000,
-    "free": false
+    "logo": "petitplaisirs.png",
+    "name": "Petit Plaisirs",
+    "description": "Handmade-мастерская",
+    "phone": "+7 962 621-81-36",
+    "web": "petit-plaisirs.com",
+    "insta": "petit.plaisirs"
   },
   "office_2": {
-    "name": "Сектор 15",
-    "square": 40,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 8000,
-    "free": true
+    "logo": "od_code.png",
+    "name": "Od Code",
+    "description": "Шоурум",
+    "insta": "od_code",
+    "phone": "+7 927 164-54-19"
   },
   "office_3": {
-    "name": "Сектор 16",
-    "square": 50,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 7000,
-    "free": false
+    "name": "Кассир Ру",
+    "description": "Билеты на мероприятия",
+    "web": "saratov.kassir.ru",
+    "vk": "kassirsaratov",
+    "phone": "+7 (8452) 39-90-79"
   },
   "office_4": {
-    "name": "Сектор 17",
-    "square": 47,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 7000,
-    "free": false
+    "logo": "oriflame.png",
+    "name": "Орифлейм",
+    "description": "Центр выдачи косметики",
+    "phones": [
+      "+7 (8452) 60–60–71",
+      "+7 927 224–26–90",
+      "+7 960 345–24–72"
+    ],
+    "time": "Пн с 11 до 16<br>ср и чт с 11 до 19<br>сб с 11 до 15"
   },
   "office_5": {
-    "name": "Сектор 18",
-    "square": 25,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 7000,
-    "free": true
+    "name": "Одежда"
   },
   "office_6": {
-    "name": "Сектор 19",
-    "square": 10,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 6000,
-    "free": false
+    "logo": "dancestudio.png",
+    "name": "Dance Studio 64",
+    "description": "Студия танцев",
+    "insta": "dance_studio64",
+    "vk": "dancestudio64",
+    "phone": "34-79-71"
   },
   "office_7": {
-    "name": "Сектор 20",
-    "square": 25,
-    "description": "Стул, 6 стульев, этажерка",
-    "price": 6000,
-    "free": true
+    "logo": "mut.jpg",
+    "name": "Мир Удивительных товаров",
+    "description": "Магазин",
+    "phone": "+7 903 328-47-43",
+    "time": "Ежедневно с 10 до 19",
+    "insta": "mut_64",
+    "web": "mutmarket.ru"
+  },
+  "office_8": {
+    "logo": "zhclub.jpg",
+    "name": "Ирма М",
+    "description": "Салон красоты",
+    "time": "пн-сб: с 11 до 19<br>вс с 11 до 17",
+    "phone": "+7 927 226–06–54"
+  },
+  "office_9": {
+    "name": "Скоро тут будет новый арендатор"
+  },
+  "office_10": {
+    "logo": "lakme.png",
+    "name": "Lakme",
+    "description": "Профессиональная косметика для волос и обучение",
+    "insta": "lakme_saratov",
+    "phone": "+7 987 377-92-62"
+  },
+  "office_11": {
+    "name": "Территория успеха"
+  },
+  "office_12": {
+    "logo": "pikcha.png",
+    "name": "Пикча",
+    "description": "Фотошкола",
+    "phone": "+7 (8452) 32–42–17",
+    "insta": "pikchasaratov",
+    "vk": "pikchasaratov",
+    "web": "saratov.pikcha.pro",
+    "time": "Ежедневно с 10 до 21"
+  },
+  "office_13": {
+    "logo": "codologia.png",
+    "name": "Кодология",
+    "description": "Школа программирования",
+    "phone": "76-96-56",
+    "web": "codologia.ru",
+    "insta": "codologiasaratov",
+    "vk": "codologiasaratov",
+    "fb": "codologiasaratov"
+  },
+  "office_14": {
+    "logo": "velvet.png",
+    "name": "Вельвет",
+    "description": "Ателье",
+    "phone": "+7 937-664-64-64",
+    "insta": "velvet.atelier64"
+  },
+  "office_15": {
+    "logo": "dilizhans.jpg",
+    "name": "Дилижанс Трэвел",
+    "description": "Агенство недвижимости",
+    "insta": "diligence_travel",
+    "phones": [
+      "+7 927 229 45 29",
+      "27 97 94"
+    ],
+    "web": "diligen-travel.ru"
+  },
+  "office_16": {
+    "logo": "sosedi.png",
+    "name": "Соседи",
+    "description": "Агенство недвижимости",
+    "phone": "+7 (8452) 46 03 35",
+    "time": "По будням с 10 до 19",
+    "insta": "sosedi64",
+    "vk": "sosedi64"
+  },
+  "office_17": {
+    "logo": "kventin.png",
+    "name": "Квентин",
+    "description": "Школа",
+    "web": "саратов.школаквентин.рф",
+    "vk": "quentinsaratov",
+    "insta": "quentinsaratov",
+    "time": "Ежедневно с 10 до 21",
+    "phone": "+7 927 110-33-22"
+  },
+  "office_18": {
+    "logo": "blg.png",
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "inste": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_19": {
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_20": {
+    "logo": "deluca.png",
+    "name": "De Luca",
+    "description": "Кофейня",
+    "insta": "deluca_coffeeworkshop",
+    "vk": "deluca_sararov",
+    "time": "Ежедневно с 10 до 21",
+    "phone": "+7 903 328-86-86"
+  },
+  "office_21": {
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_22": {
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_23": {
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_24": {
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_25": {
+    "logo": "dresscode.png",
+    "name": "Дресс код",
+    "description": "Магазин школьной формы",
+    "phone": "+7 903 475–54–74",
+    "web": "dress-code-rf.ru",
+    "vk": "pablicshoolforma2016",
+    "insta": "dresscoderf"
+  },
+  "office_26": {
+    "name": "Одежда"
+  },
+  "office_27": {
+    "logo": "onslon.png",
+    "name": "On Slon",
+    "description": "Домашний текстиль",
+    "insta": "on.slon",
+    "vk": "onslondesign",
+    "phone": "+7 903 045–22–69"
+  },
+  "office_28": {
+    "logo": "ostrova.png",
+    "name": "Острова",
+    "description": "Туристическое агенство",
+    "phone": "+7 (8452) 40-01-21",
+    "insta": "ostrova.saratov",
+    "fb": "OstrovaSaratov",
+    "time": "будни с 10 до 19<br>суббота с 11 до 15"
+  },
+  "office_29": {
+    "name": "Постельное белье"
+  },
+  "office_30": {
+    "name": "Одежда"
+  },
+  "office_31": {
+    "name": "Головные уборы"
+  },
+  "office_32": {
+    "name": "Одежда"
+  },
+  "office_33": {
+    "name": "Одежда"
+  },
+  "office_34": {
+    "name": "Скоро тут будет новый арендатор"
+  },
+  "office_35": {
+    "name": "Косметика"
+  },
+  "office_36": {
+    "name": "Кожгалантерея"
+  },
+  "office_37": {
+    "logo": "manufactura.jpg",
+    "name": "Мануфактура",
+    "description": "Коворкинг для мастеров и ремесленников",
+    "vk": "manufactura_saratov",
+    "insta": "manufactura_saratov",
+    "phone": "+7 927 915-48-60",
+    "time": "Ежедневно с 10 до 20"
+  },
+  "office_38": {
+    "logo": "redroom.png",
+    "name": "Red room",
+    "description": "POLE DANCE",
+    "vk": "pole_dance_redroom",
+    "insta": "redroom_poledance",
+    "phone": "+7 953 632-07-93"
+  },
+  "office_39": {
+    "name": "Одежда"
   }
 }
