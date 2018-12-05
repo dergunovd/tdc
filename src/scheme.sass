@@ -115,10 +115,11 @@ $gray: #C9CDCC
     padding: 1em
 
     &__cont
-      display: flex
+      padding: 1em 0.5em
+      line-height: 1.5
 
-      > div:last-child
-        padding: 3em 1em 0
+      * + *
+        margin-top: .5em
 
     &__title
       font-size: 2em
@@ -130,14 +131,11 @@ $gray: #C9CDCC
         max-height: 1em
 
     &__description
-      margin: 0 0 2px
       font-weight: 300
       font-size: 1.5em
       color: $black
 
     &__social
-      margin-top: 5px
-
       a
         display: inline-block
         fill: $secondary-color

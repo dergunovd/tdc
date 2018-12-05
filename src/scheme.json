@@ -43,6 +43,7 @@
     "phone": "+7 927 164-54-19"
   },
   "office_3": {
+    "logo": "kassir.jpg",
     "name": "Кассир Ру",
     "description": "Билеты на мероприятия",
     "web": "saratov.kassir.ru",
@@ -67,6 +68,7 @@
     "logo": "dancestudio.png",
     "name": "Dance Studio 64",
     "description": "Студия танцев",
+    "web": "st64.ru",
     "insta": "dance_studio64",
     "vk": "dancestudio64",
     "phone": "34-79-71"
@@ -88,7 +90,7 @@
     "phone": "+7 927 226–06–54"
   },
   "office_9": {
-    "name": "Скоро тут будет новый арендатор"
+    "name": "Скоро тут будет новый арендатор!"
   },
   "office_10": {
     "logo": "lakme.png",
@@ -167,6 +169,7 @@
     "tine": "Ежедневно с 10 до 21"
   },
   "office_19": {
+    "logo": "blg.png",
     "name": "Бизнес Лобби Групп",
     "description": "Группа компаний",
     "insta": "businesslobbygroup",
@@ -184,6 +187,7 @@
     "phone": "+7 903 328-86-86"
   },
   "office_21": {
+    "logo": "blg.png",
     "name": "Бизнес Лобби Групп",
     "description": "Группа компаний",
     "insta": "businesslobbygroup",
@@ -192,6 +196,7 @@
     "tine": "Ежедневно с 10 до 21"
   },
   "office_22": {
+    "logo": "blg.png",
     "name": "Бизнес Лобби Групп",
     "description": "Группа компаний",
     "insta": "businesslobbygroup",
@@ -200,6 +205,7 @@
     "tine": "Ежедневно с 10 до 21"
   },
   "office_23": {
+    "logo": "blg.png",
     "name": "Бизнес Лобби Групп",
     "description": "Группа компаний",
     "insta": "businesslobbygroup",
@@ -208,6 +214,7 @@
     "tine": "Ежедневно с 10 до 21"
   },
   "office_24": {
+    "logo": "blg.png",
     "name": "Бизнес Лобби Групп",
     "description": "Группа компаний",
     "insta": "businesslobbygroup",
@@ -260,7 +267,7 @@
     "name": "Одежда"
   },
   "office_34": {
-    "name": "Скоро тут будет новый арендатор"
+    "name": "Скоро тут будет новый арендатор!"
   },
   "office_35": {
     "name": "Косметика"

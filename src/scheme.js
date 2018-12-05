@@ -12,7 +12,7 @@ class Scheme {
       elem.classList.toggle('scheme__element_active');
       this.x = elem.x;
       this.y = elem.y;
-      this.id = elem.id;
+      this.id = elem.getAttribute('data-id');
       this.printInfo();
     };
     this.x = 0;
@@ -86,25 +86,44 @@ class Scheme {
   }
   
   printInfo() {
-    const data = this.data[this.id];
-    document.getElementById('schemeInfo').innerHTML =
-      `<div class="scheme__info__cont">
-        <div>
-          ${data.name ? `<h2 class="scheme__info__title">${data.logo ? `<img src="/logo/${data.logo}" alt=""> ` : ''}${data.name}</h2>` : ''}
-          ${data.description ? `<div class="scheme__info__description">${data.description}</div>` : ''}
-          ${data.web ? `<div class="scheme__info__web"><a href="http://${data.web}">${data.web}</a></div>` : ''}
-          ${data.phone ? `<div class="scheme__info__phone"><a href="tel:${data.phone}">${data.phone}</a></div>` : ''}
-          ${data.phones && data.phones.length ? `<div class="scheme__info__phone">${data.phones.map(phone => ` <a href="tel:${phone}">${phone}</a>`)}</div>` : ''}
-        </div>
-        <div>
-          ${data.time ? `<div class="scheme__info__time">${data.time}</div>` : ''}
-          <div class="scheme__info__social">
-            ${data.insta ? `<a href="https://instagram.com/${data.insta}">${this.icons.INSTA}</a>` : ''}
-            ${data.vk ? `<a href="https://instagram.com/${data.vk}">${this.icons.VK}</a>` : ''}
-            ${data.fb ? `<a href="https://instagram.com/${data.fb}">${this.icons.FB}</a>` : ''}
+    const id = this.id;
+    const data = this.data[id];
+    const element = document.createElement('div');
+    element.id = id;
+    element.className = 'modal';
+    element.innerHTML =
+      `<div class="container">
+         <div class="row">
+            <div class="modal-dialog" style="width:100%">
+              <div class="modal-content">
+                <div class="modal-text">
+                  <div class="container" style="padding: 1em 2em">
+                  <div class="modal-header">
+                    <h3 class="modal-title scheme__info__title">${data.name ? `${data.logo ? `<img src="/logo/${data.logo}" alt=""> ` : ''}${data.name}` : ''}</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                  </div>
+                  <div class="modal-body">
+                    <div class="scheme__info__cont">
+                    ${data.description ? `<div class="scheme__info__description">${data.description}</div>` : ''}
+                    ${data.web ? `<div class="scheme__info__web"><a href="http://${data.web}">${data.web}</a></div>` : ''}
+                    ${data.phone ? `<div class="scheme__info__phone"><a href="tel:${data.phone}">${data.phone}</a></div>` : ''}
+                    ${data.phones && data.phones.length ? `<div class="scheme__info__phone">${data.phones.map(phone => ` <a href="tel:${phone}">${phone}</a>`)}</div>` : ''}
+                    ${data.time ? `<div class="scheme__info__time">${data.time}</div>` : ''}
+                    <div class="scheme__info__social">
+                      ${data.insta ? `<a target="_blank" href="https://instagram.com/${data.insta}">${this.icons.INSTA}</a>` : ''}
+                      ${data.vk ? `<a target="_blank" href="https://vk.com/${data.vk}">${this.icons.VK}</a>` : ''}
+                      ${data.fb ? `<a target="_blank" href="https://facebook.com/${data.fb}">${this.icons.FB}</a>` : ''}
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>`;
+    document.body.appendChild(element);
+    window.location.hash = id;
   }
 }
 
