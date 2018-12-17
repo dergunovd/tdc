@@ -223,6 +223,15 @@
     "tine": "Ежедневно с 10 до 21"
   },
   "office_25": {
+    "logo": "blg.png",
+    "name": "Бизнес Лобби Групп",
+    "description": "Группа компаний",
+    "insta": "businesslobbygroup",
+    "facebook": "businesslobbygroups",
+    "phone": "+7 (8452) 59–59–13",
+    "tine": "Ежедневно с 10 до 21"
+  },
+  "office_26": {
     "logo": "dresscode.png",
     "name": "Дресс код",
     "description": "Магазин школьной формы",
@@ -231,10 +240,10 @@
     "vk": "pablicshoolforma2016",
     "insta": "dresscoderf"
   },
-  "office_26": {
+  "office_27": {
     "name": "Одежда"
   },
-  "office_27": {
+  "office_28": {
     "logo": "onslon.png",
     "name": "On Slon",
     "description": "Домашний текстиль",
@@ -242,7 +251,7 @@
     "vk": "onslondesign",
     "phone": "+7 903 045–22–69"
   },
-  "office_28": {
+  "office_29": {
     "logo": "ostrova.png",
     "name": "Острова",
     "description": "Туристическое агенство",
@@ -251,31 +260,31 @@
     "fb": "OstrovaSaratov",
     "time": "будни с 10 до 19<br>суббота с 11 до 15"
   },
-  "office_29": {
+  "office_30": {
     "name": "Постельное белье"
   },
-  "office_30": {
-    "name": "Одежда"
-  },
   "office_31": {
-    "name": "Головные уборы"
+    "name": "Одежда"
   },
   "office_32": {
-    "name": "Одежда"
+    "name": "Головные уборы"
   },
   "office_33": {
     "name": "Одежда"
   },
   "office_34": {
-    "name": "Скоро тут будет новый арендатор!"
+    "name": "Одежда"
   },
   "office_35": {
-    "name": "Косметика"
+    "name": "Скоро тут будет новый арендатор!"
   },
   "office_36": {
-    "name": "Кожгалантерея"
+    "name": "Косметика"
   },
   "office_37": {
+    "name": "Кожгалантерея"
+  },
+  "office_38": {
     "logo": "manufactura.jpg",
     "name": "Мануфактура",
     "description": "Коворкинг для мастеров и ремесленников",
@@ -284,7 +293,7 @@
     "phone": "+7 927 915-48-60",
     "time": "Ежедневно с 10 до 20"
   },
-  "office_38": {
+  "office_39": {
     "logo": "redroom.png",
     "name": "Red room",
     "description": "POLE DANCE",
@@ -292,7 +301,7 @@
     "insta": "redroom_poledance",
     "phone": "+7 953 632-07-93"
   },
-  "office_39": {
+  "office_40": {
     "name": "Одежда"
   }
 }
